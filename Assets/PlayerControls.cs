@@ -9,6 +9,7 @@ public class PlayerControls : MonoBehaviour
 	public float speed = 10.0f;
 	public float boundY = 2.25f;
 	private Rigidbody2D rb2d;
+	
     // Start is called before the first frame update
     void Start()
     {
