@@ -30,7 +30,7 @@ public class GameManager : MonoBehaviour
 
 		GUI.Label(new Rect(Screen.width / 2 + 150 + 12, 20, 100, 100), "" + PlayerScore2);
 
-		if(GUI.Button(new Rect(Screen.width / 2 - 60, 35, 120, 25), "RESTART")){
+		if(GUI.Button(new Rect(Screen.width / 2 - 60, 35, 120, 50), "RESTART")){
 			PlayerScore1 = 0;
 			PlayerScore2 = 0;
 			theBall.SendMessage("RestartGame", 0.5f, SendMessageOptions.RequireReceiver);
